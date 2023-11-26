@@ -1,14 +1,13 @@
-#API 01 -API REST com POSTGRES
+#API 01 - API REST com POSTGRES
 
 Integrantes: 
 -Ana Julia
--Ana Clara 
+-Anna Clara 
 -Natali
 
 
 ##Dependencias do projeto 
-```
- shell
+```shell
 
  poetry add fastapi
  poetry add sqlmodel
@@ -18,8 +17,7 @@ Integrantes:
 ```
 
 ## Iniciando o servidor http
-```
-shell
+```shell
  uvicorn src.server:app --reload
 ```
 
